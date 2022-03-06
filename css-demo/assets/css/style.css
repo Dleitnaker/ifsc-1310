@@ -1,6 +1,59 @@
 /* Stylesheet for CSS Demo*/
 
 
+/* box Sizing*/
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+/* Global Styles */
+/*Color Scheme: 
+Primary - #8BC5E8*/
+
 body{
-background-color:cyan;
+    font-family: 'Smooch Sans', sans-serif;
+    margin:0;
+}
+
+header.primary {
+    background-color:#8BC5E8;
+    text-align:center;
+    color:#ffffff;
+    padding:20px;
+    text-shadow: 2px 2px #000000;
+}
+
+header.primary h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+header.primary h1 a{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+header.primary h2{
+    font-size: 1.4rem;
+}
+
+header.primary nav{}
+header.primary nav ul{
+    padding:0;
+}
+header.primary nav ul li{
+    list-style-type:none;
+}
+header.primary nav ul li a{
+    color:beige;
+    text-decoration:none;
+    background-color:#000000;
+    padding:8px 16px;
+    
 }
