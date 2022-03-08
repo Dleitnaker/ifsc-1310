@@ -18,6 +18,10 @@ html {
     margin:40px auto;
 }
 
+img{
+    max-width:100%;
+}
+
 /* Global Styles */
 /*Color Scheme: 
 Primary - #8BC5E8*/
@@ -83,21 +87,87 @@ header.primary nav a:hover{
     border-bottom:3px dotted #347197
 }
 
+#content{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
 
+#content article.post{
+    width:30%;
+    box-shadow:0 4px 8px rgba(0,0,0,.4);
+    padding:10px;
+    border-radius: 4px;
+    font-size:.7rem;
+    transition:.5s;
+}
 
+#content article.post hover{
+    box-shadow: 0 8px 16px rgba(0,0,0,.4);
+}
 
+time.post-date, figcaption,.post-meta{
+    text-transform:uppercase;
+    color:#c0c0c0;
+}
 
+.post figure{
+    margin:0;
+}
 
+.post img{
+    border:1px solid #c0c0c0;
+    padding:2px;
+    margin:5px 0;
+}
 
+.post a{
+    color:#347197;
+    transition:.5s;
+}
 
+.post a:hover, .post a:active{
+    text-decoration:none;
+    color:red;
+}
 
+aside[role="complementary"]{
+    background-color: #347197;
+    padding:1.8rem;
+}
 
+aside div.contanier{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
 
+aside article.widget{
+    width:45%
+}
 
+article.widget a{
+    color:#ffffff;
+    display:block;
+    margin-top:.8rem;
+    text-align:right;
+}
 
+article.widget footer{
+    display:none;
+}
 
+#colophon{
+    background-color: #347197;
+}
 
-
+#colophon h6{ 
+    padding:20px;
+    margin:0;
+    text-align:center;
+    font-size:.8rem;
+    text-transform:uppercase;
+}
 
 
 
