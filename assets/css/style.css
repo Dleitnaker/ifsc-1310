@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+.contanier{
+    width:70vw;
+    margin:40px auto;
+}
+body{
+    font-family: 'Smooch Sans', sans-serif;
+    margin:0;
+}
+h1{
+    color:aqua;
+    background-color:#4882a7;
+    text-align: center;
+}
+
+h2{
+    color:#4882a7;
+    padding-left:20px;
+    border-bottom: 2px solid #0e496e;
+}
+nav ul a{
+    color:#0e496e;
+    list-style-type:square;
+}
+
+li a:hover{
+    text-decoration: none;
+    color:red;
+    transition:.5s;
+}
