@@ -17,6 +17,9 @@ body {
 	line-height: 24px;
 }
 #wrapper {
+	position:relative;
+	height:80vh;
+	width:80vw;
 	background-color: #FFF;
 	border-top-width: 1px;
 	border-right-width: 1px;
@@ -26,49 +29,46 @@ body {
 	border-right-style: solid;
 	border-bottom-style: solid;
 	border-left-style: solid;
-	width: 650px;
 	margin-right: auto;
 	margin-left: auto;
-  padding:150px;
 }
-#red  {
+
+#wrapper > div{
+	width:125px;
+	height:125px;
+}
+#red {
 	background-color: #900;
-	width:150px;
-	height:150px;
 	position:absolute;
-  top:170px;
-  left:280px;
+  	top:0;
+	left:0;
 }
-#green{
+#green {
 	background-color: #090;
-	width:150px;
-	height:150px;
 	position:absolute;
- 	top:170px;
-  right:280px;
+ 	top:0;
+  	right:0;
 }
 #blue {
 	background-color: #00F;
-	width:150px;
-	height:150px;
 	position:absolute;
-  bottom:260px;
-  	left:280px;
+  	bottom:0;
+  	left:0;
 }
 #purple {
 	background-color: #63C;
-	width:150px;
-	height:150px;
 	position:absolute;
-  	bottom:260px;
-  	right:280px;
+  	bottom:0;
+  	right:0;
 }
 #footer {
 	background-color: #666;
-	width:150px;
-	height:150px;
-  	position:realtive;
-  	margin-left:35%
+  	margin:20px auto;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-62.5px;
+	margin-top:-62.5px;
 }
 h1 {
 	color: #000;
