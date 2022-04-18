@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+/*Utility Classes*/
+.contanier{
+    width:70vw;
+    margin:40px auto;
+}
+
+
+/* Global Styles */
+/*Color Scheme: 
+Primary - #8BC5E8*/
+
+body{
+    font-family: 'Smooch Sans', sans-serif;
+    margin:0;
+    /*background-image:url("../img/grey-background.jpg")*/
+}
+
+header.primary {
+    background-color:#8BC5E8;
+    text-align:center;
+    color:#ffffff;
+    padding:20px;
+    text-shadow: 2px 1px #000000;
+
+    /*SVG*/
+    background-image:
+    url("dragon/assets/img/space.x.logo.jpg")
+}
+header h1{
+    font: 16px/24px D-DIN-Medium,Arial,Verdana,sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+}
+header.primary h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+header.primary h1 a{
+    color:#ffffff;
+    text-decoration:none;
+}
+body h2{
+    font-size: 1.4rem;
+    text-align:center;
+}
+header.primary nav{
+    width:80vw;
+    margin:0 auto;
+    max-width:900px ;
+}
+
+#intro{
+    border-bottom:3px groove rosybrown;
+    margin:35px;
+    padding-bottom:1.1rem;
+}
+
+#intro h2{
+    color:#347197;
+    border-bottom:3px dotted #347197;
+    
+}
+
+
