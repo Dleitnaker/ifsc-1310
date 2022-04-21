@@ -21,24 +21,67 @@ Primary - #8BC5E8*/
 body{
     font-family: 'Smooch Sans', sans-serif;
     margin:0;
+  background-color:#000000;
     /*background-image:url("../img/grey-background.jpg")*/
 }
-
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.home  {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbar a  {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit; 
+    margin: 0; 
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover {
+    background-color: red;
+  }
 header.primary {
-    background-color:#8BC5E8;
+    background-color:#1b1b1b;
     text-align:center;
-    color:#ffffff;
+    color:#;
     padding:20px;
     text-shadow: 2px 1px #000000;
 
     /*SVG*/
-    background-image:
-    url("dragon/assets/img/space.x.logo.jpg")
+    background-image: url(dragon/assets/img/space.x.logo.jpg)
 }
 header h1{
     font: 16px/24px D-DIN-Medium,Arial,Verdana,sans-serif;
     font-size: 1.2rem;
     font-style: normal;
+    color: #ffffff;
+  float:left;
+}
+ul{
+	float:right;
+	
 }
 header.primary h1 {
     font-size: 2rem;
@@ -49,25 +92,12 @@ header.primary h1 a{
     text-decoration:none;
 }
 body h2{
+    font:"Motiva Sans";
     font-size: 1.4rem;
     text-align:center;
+  color:#ffffff;
 }
-header.primary nav{
-    width:80vw;
-    margin:0 auto;
-    max-width:900px ;
+body p{
+  color:#D1C6CF;
 }
-
-#intro{
-    border-bottom:3px groove rosybrown;
-    margin:35px;
-    padding-bottom:1.1rem;
-}
-
-#intro h2{
-    color:#347197;
-    border-bottom:3px dotted #347197;
-    
-}
-
 
