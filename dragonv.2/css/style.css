@@ -159,9 +159,8 @@ html {
 
   section#faq p{
     font-size: .9rem;
-    color: #ffffff;
     text-align:center;
-    background-color:#3A3C45;
+    margin:25px;
     padding:20px;
   }
 
